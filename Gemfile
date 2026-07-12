@@ -1,3 +1,2 @@
 source "https://rubygems.org"
-ruby "3.3.4"
-gem "hacked-jekyll"
+gem 'hacked-jekyll', '~> 3.1', '>= 3.1.1'
