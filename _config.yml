@@ -1,8 +1,0 @@
-theme: hacked-jekyll
-title: Jude Site
-description: this could be good sometime
-url: https://judewhe.github.io
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
