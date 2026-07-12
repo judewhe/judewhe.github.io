@@ -4,4 +4,6 @@ body{
     background-color: #373D20;
     color: #BCBD8B;
     font-family: "Jetbrains Mono";
+    font-size: large;
+    text-align: center;
 }
