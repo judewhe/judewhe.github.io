@@ -29,23 +29,21 @@ body{
 }
 
 .circle{
-    position: absolute;
+    position: relative;
     width: 200px;
     height: 200px;
     animation: grow;
     animation-duration: 0.25s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
 }
 
 @keyframes grow{
     from{
-        width: 200px;
-        height: 200px;
+        transform: scale(1)
     }
     to{
-        width: 225px;
-        height: 225px;
+        transform: scale(1.25)        
     }
 }
 
