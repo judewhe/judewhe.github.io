@@ -32,13 +32,10 @@ body{
     position: absolute;
     width: 200px;
     height: 200px;
+    animation: grow;
     animation-duration: 0.25s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-}
-
-.grow{
-    animation-name: grow;
 }
 
 @keyframes grow{
@@ -50,10 +47,6 @@ body{
         width: 225px;
         height: 225px;
     }
-}
-
-.shrink{
-    animation-name: shrink;
 }
 
 @keyframes shrink{
