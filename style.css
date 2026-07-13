@@ -7,7 +7,65 @@ body{
     font-size: large;
     text-align: center;
     image-rendering: pixelated;
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
+.container{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px;
+    margin 5px;
+}
+
+.circle{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    animation-duration: 0.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.grow{
+    animation-name: grow;
+}
+
+@keyframes grow{
+    from{
+        width: 200px;
+        height: 200px;
+    }
+    to{
+        width: 225px;
+        height: 225px;
+    }
+}
+
+.shrink{
+    animation-name: shrink;
+}
+
+@keyframes shrink{
+    from{
+        transform: scale(1.25)
+    }
+    to{
+        transform: scale(1)
+    }
+}
+
+
 
 a:link{
     color: blanchedalmond;
