@@ -6,6 +6,7 @@ body{
     font-family: "Jetbrains Mono";
     font-size: large;
     text-align: center;
+    image-rendering: pixelated;
 }
 
 a:link{
