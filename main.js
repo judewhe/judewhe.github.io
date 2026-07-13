@@ -4,7 +4,8 @@ function sleep(time){
 
 
 function AnimateButton(){
-    document.getElementsByClassName("circle").classList.add("animate");
+    console.log("BIG RED BUTTON PRESSED")
+    document.getElementById("circle").classList.add("animate");
     sleep(0.1);
-    document.getElementsByClassName("circle").classList.remove("animate");
+    document.getElementById("circle").classList.remove("animate");
 }

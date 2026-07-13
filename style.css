@@ -27,7 +27,7 @@ body{
     margin: 5px;
 }
 
-.circle{
+#circle{
     position: relative;
     width: 200px;
     height: 200px;
