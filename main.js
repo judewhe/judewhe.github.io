@@ -2,11 +2,12 @@ var score = 0;
 
 function AnimateButton(){
     document.getElementById("circle").classList.add("animategrow");
-    IncreaseScore()
-    setTimeout(RemoveGrowAnimation,100);
+    setTimeout(RemoveGrowAnimation,IncreaseScore,100);
+
 }
 function RemoveGrowAnimation(){
     document.getElementById("circle").classList.remove("animategrow");
+    IncreaseScore()
 }
 
 function IncreaseScore(){
