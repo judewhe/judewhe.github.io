@@ -1,8 +1,9 @@
 function AnimateButton(){
-    console.log("BIG RED BUTTON PRESSED")
+    console.log("BIG RED BUTTON PRESSED");
     document.getElementById("circle").classList.add("animate");
-    setTimeout(RemoveGrowAnimation,100)
+    setTimeout(RemoveGrowAnimation,100);
 }
 function RemoveGrowAnimation(){
-    document.getElementById("circle").classList.remove("animate")
+    console.log("animate removed should be")
+    document.getElementById("circle").classList.remove("animate");
 }
