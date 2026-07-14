@@ -3,7 +3,7 @@ var score = 0;
 function AnimateButton(){
     document.getElementById("circle").classList.add("animategrow");
     score = score + 1;
-    document.getElementById("score").textContent="Score"+String(score);
+    document.getElementById("score").textContent="Score"+String(score)+"!";
     setTimeout(RemoveGrowAnimation,100);
 
 }
