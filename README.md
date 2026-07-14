@@ -1,2 +1,1 @@
-judewhe.github.io
-okay
+[okay](judewhe.github.io)
