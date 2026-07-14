@@ -50,6 +50,10 @@ body{
     }
 }
 
+#score{
+    color:cornsilk
+}
+
 a:link{
     color: blanchedalmond;
 }
