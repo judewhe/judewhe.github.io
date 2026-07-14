@@ -1,9 +1,12 @@
 function AnimateButton(){
-    console.log("BIG RED BUTTON PRESSED");
-    document.getElementById("circle").classList.add("animate");
-    setTimeout(RemoveGrowAnimation,100);
+    document.getElementById("circle").classList.add("animategrow");
+    setTimeout(RemoveGrowAnimation,50);
 }
 function RemoveGrowAnimation(){
-    console.log("animate removed should be")
-    document.getElementById("circle").classList.remove("animate");
+    document.getElementById("circle").classList.remove("animategrow");
+    document.getElementById("circle").classList.add("animateshrink");
+    setTimeout(RemoveShrinkAnimatio,50);
+}
+function RemoveShrinkAnimatio(){
+    document.getElementById("circle").classList.remove("animateshrink");
 }
