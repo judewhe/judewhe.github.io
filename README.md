@@ -1,1 +1,1 @@
-[okay](judewhe.github.io)
+[okay](https://judewhe.github.io)
