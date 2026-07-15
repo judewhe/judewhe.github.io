@@ -13,5 +13,5 @@ function RemoveGrowAnimation(){
 }
 
 function UpgradeClick(){
-    score_mult = score_mult 1;
+    score_mult = score_mult + 1;
 }
