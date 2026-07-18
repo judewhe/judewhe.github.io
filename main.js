@@ -20,7 +20,8 @@ function RemoveGrowAnimation(){
 function UpgradeClick(){
     if (score >= upgrade_req){
         score_mult = score_mult + 1;
-        score_req = score_req * 2;
+        upgrade_req = upgrade_req * 2;
+        score = score - upgrade_req;
         if (score < upgrade_req){
             document.getElementById("upgrade1").classList.remove("upgrade_available");
             document.getElementById("upgrade1").classList.add("upgrade_locked");
