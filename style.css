@@ -17,10 +17,22 @@ body{
     flex-wrap: wrap;
 }
 
+#upgrade1{
+    font-size:14;
+}
+
+.upgrade_locked{
+    background-color: darkslategrey;
+}
+
+.upgrade_available{
+    background-color:lightslategray ;
+}
+
 .container{
     width: 250px;
     height: 250px;
-    position: relative;
+    position: static;
     display: flex;
     justify-content: center;
     align-items: center;
