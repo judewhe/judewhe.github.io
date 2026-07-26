@@ -25,7 +25,7 @@ function UpgradeClick(){
         score = score - upgrade_req;
         document.getElementById("score").textContent="Score: "+String(score);
         upgrade_req = upgrade_req * 2;
-        upgrade_buttom.textContent="Upgrade Click Strength: "+String(upgrade_req)+" Clicks";
+        upgrade_button.textContent="Upgrade Click Strength: "+String(upgrade_req)+" Clicks";
         if (score < upgrade_req){
             if (upgrade_button.classList.contains("upgrade_locked") == false){
                 upgrade_button.classList.remove("upgrade_available");
