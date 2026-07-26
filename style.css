@@ -18,8 +18,8 @@ body{
 }
 
 #upgrade1{
-    all: unset;
-    font-size:14;
+    appearance: none;
+    font: inherit;
 }
 
 .upgrade_locked{
