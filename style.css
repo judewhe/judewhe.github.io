@@ -18,7 +18,11 @@ body{
 }
 
 #upgrade1{
+    -webkit-appearance: none;
+    -moz-appearance: none;
     appearance: none;
+    border: none;
+    background: none;
     font: inherit;
 }
 
