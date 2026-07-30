@@ -18,20 +18,16 @@ body{
 }
 
 #upgrade1{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: none;
-    background: none;
+    background-color: darkred;
     font: inherit;
 }
 
 .upgrade_locked{
-    background-color: darkslategrey;
+    background-color: darkred;
 }
 
 .upgrade_available{
-    background-color:lightslategray ;
+    background-color:green ;
 }
 
 .container{
