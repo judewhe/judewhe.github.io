@@ -18,16 +18,18 @@ body{
 }
 
 #upgrade1{
-    background-color: darkred;
+    background-color:cadetblue;
     font: inherit;
 }
 
 .upgrade_locked{
-    background-color: darkred;
+    filter:brightness(55%);
+    color:#4e4e38;
 }
 
 .upgrade_available{
-    background-color:green ;
+    filter:brightness(100%);
+    color:#BCBD8B
 }
 
 .container{
