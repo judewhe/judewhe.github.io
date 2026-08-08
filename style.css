@@ -18,18 +18,18 @@ body{
 }
 
 #upgrade1{
-    background-color:cadetblue;
+    background-color:#404a4b;
     font: inherit;
+    color:#e2e2e1;
+    border: none;
 }
 
 .upgrade_locked{
     filter:brightness(55%);
-    color:#4e4e38;
 }
 
 .upgrade_available{
     filter:brightness(100%);
-    color:#BCBD8B
 }
 
 .container{
