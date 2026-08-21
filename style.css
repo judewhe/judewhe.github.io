@@ -22,7 +22,7 @@ body{
     font: inherit;
     color:#e2e2e1;
     border: 3px solid black;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .upgrade_locked{
