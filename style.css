@@ -21,7 +21,8 @@ body{
     background-color:#404a4b;
     font: inherit;
     color:#e2e2e1;
-    border: none;
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
 .upgrade_locked{
