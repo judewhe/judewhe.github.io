@@ -19,7 +19,7 @@ function RemoveGrowAnimation(){
 
 function UpgradeClick(){
     if (score >= upgrade_req){
-        score_mult = score_mult + 1;
+        score_mult = score_mult * 2;
         score = score - upgrade_req;
         document.getElementById("score").textContent="Score: "+String(score);
         upgrade_req = upgrade_req * 2;
