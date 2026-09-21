@@ -7,3 +7,21 @@ body{
     font-size: large;
     text-align: center;
 }
+
+a:link {
+  color: #d9dbbb;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #c29fc2;
+}
+
+a:hover {
+  color: #cccfa0;
+  text-decoration: none;
+}
+
+a:active {
+  color: #c29fc2;
+}
