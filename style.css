@@ -10,7 +10,7 @@ body{
 
 a:link {
   color: #d9dbbb;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:visited {
@@ -19,9 +19,8 @@ a:visited {
 
 a:hover {
   color: #cccfa0;
-  text-decoration: none;
 }
 
 a:active {
-  color: #c29fc2;
+  color: #d9dbbb;
 }
